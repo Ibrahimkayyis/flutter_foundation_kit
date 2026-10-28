@@ -6,7 +6,7 @@
 .packages
 .pub-cache/
 .pub/
-/build/
+**/build/
 pubspec.lock
 
 # FVM Version Cache
