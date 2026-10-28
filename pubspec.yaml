@@ -9,6 +9,7 @@ workspace:
   - packages/app_bloc_wrapper
   - packages/app_core
   - packages/app_ui
+  - packages/app_auto_route_helper
 
 melos:
   sdkPath: .fvm/flutter_sdk

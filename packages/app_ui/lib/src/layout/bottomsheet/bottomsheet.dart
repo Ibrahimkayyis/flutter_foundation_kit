@@ -74,3 +74,6 @@ class NTIBottomSheet extends StatelessWidget {
     );
   }
 }
+
+
+typedef AppBottomSheet = NTIBottomSheet;
