@@ -1,0 +1,32 @@
+name: example
+description: "Demonstration and sandbox application for Flutter Foundation Kit."
+version: 1.0.0+1
+resolution: workspace
+publish_to: none
+
+environment:
+  sdk: ^3.7.0
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.0
+  app_types:
+    path: ../packages/app_types
+  app_bloc_wrapper:
+    path: ../packages/app_bloc_wrapper
+  app_core:
+    path: ../packages/app_core
+  app_ui:
+    path: ../packages/app_ui
+  app_auto_route_helper:
+    path: ../packages/app_auto_route_helper
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true

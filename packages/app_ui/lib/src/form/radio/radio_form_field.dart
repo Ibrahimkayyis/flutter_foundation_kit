@@ -95,5 +95,5 @@ class RadioModel<T> {
   final String? label;
   final T value;
 
-  RadioModel({required this.label, required this.value});
+  const RadioModel({required this.label, required this.value});
 }

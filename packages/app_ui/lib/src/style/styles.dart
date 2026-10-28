@@ -4,6 +4,7 @@ import 'typography/typhography.dart';
 
 export 'color/color_theme.dart';
 export 'typography/typhography.dart';
+export 'typography/typhograhpy_example.dart';
 
 class AppInputDecoration {
   static const radius = BorderRadius.all(Radius.circular(8));
@@ -83,6 +84,5 @@ class AppInputDecoration {
     );
   }
 }
-
 
 typedef NTIInputDecoration = AppInputDecoration;

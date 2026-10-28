@@ -10,6 +10,7 @@ workspace:
   - packages/app_core
   - packages/app_ui
   - packages/app_auto_route_helper
+  - example
 
 melos:
   sdkPath: .fvm/flutter_sdk
