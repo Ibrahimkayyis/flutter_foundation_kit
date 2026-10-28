@@ -19,25 +19,25 @@ You can add any package directly to your Flutter project's `pubspec.yaml`:
 dependencies:
   app_types:
     git:
-      url: https://github.com/<your-username>/flutter_foundation_kit.git
+      url: https://github.com/Ibrahimkayyis/flutter_foundation_kit.git
       path: packages/app_types
       ref: main
 
   app_bloc_wrapper:
     git:
-      url: https://github.com/<your-username>/flutter_foundation_kit.git
+      url: https://github.com/Ibrahimkayyis/flutter_foundation_kit.git
       path: packages/app_bloc_wrapper
       ref: main
 
   app_core:
     git:
-      url: https://github.com/<your-username>/flutter_foundation_kit.git
+      url: https://github.com/Ibrahimkayyis/flutter_foundation_kit.git
       path: packages/app_core
       ref: main
 
   app_ui:
     git:
-      url: https://github.com/<your-username>/flutter_foundation_kit.git
+      url: https://github.com/Ibrahimkayyis/flutter_foundation_kit.git
       path: packages/app_ui
       ref: main
 ```
