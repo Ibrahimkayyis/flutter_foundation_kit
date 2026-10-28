@@ -1,0 +1,34 @@
+# Flutter/Dart/Pub related
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+pubspec.lock
+
+# FVM Version Cache
+.fvm/
+
+# Generated code
+*.module.dart
+*.g.dart
+*.gen.dart
+*.gr.dart
+*.mocks.dart
+
+# Coverage
+coverage/
+
+# IDE & Editor
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS files
+.DS_Store
+Thumbs.db

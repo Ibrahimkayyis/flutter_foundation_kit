@@ -1,0 +1,23 @@
+name: app_bloc_wrapper
+description: "Universal generic Bloc/Cubit wrappers for data fetching and forms."
+version: 0.0.1
+resolution: workspace
+publish_to: none
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.0
+  bloc: ^9.0.0
+  equatable: ^2.0.7
+  app_types:
+    path: ../app_types
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  bloc_test: ^10.0.0
+  flutter_lints: ^5.0.0

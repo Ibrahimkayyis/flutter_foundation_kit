@@ -1,0 +1,49 @@
+name: flutter_foundation_kit
+
+packages:
+  - packages/**
+  - example
+
+scripts:
+  # TEST
+  test:
+    run: melos exec --dir-exists="test" --fail-fast -- fvm flutter test --no-pub
+    description: Run Flutter tests for all packages containing a test folder.
+    packageFilters:
+      dirExists: test
+
+  test:coverage:
+    run: melos exec --dir-exists="test" --fail-fast -- fvm flutter test --no-pub --coverage
+    description: Run tests and generate coverage report.
+    packageFilters:
+      dirExists: test
+
+  # ANALYZE & FORMAT
+  analyze:
+    run: melos exec -- fvm flutter analyze .
+    description: Run `flutter analyze` across all packages.
+
+  format:
+    run: melos exec -- fvm dart format .
+    description: Format Dart files across all packages.
+
+  format:check:
+    run: melos exec -- fvm dart format --set-exit-if-changed .
+    description: Check code formatting across all packages.
+
+  # CODE GENERATION (BUILD RUNNER)
+  generate:
+    run: melos exec -c 1 --depends-on build_runner -- fvm dart run build_runner build --delete-conflicting-outputs
+    description: Run build_runner for packages depending on build_runner.
+
+  clean_generate:
+    run: |
+      melos exec -c 1 --depends-on build_runner -- fvm dart run build_runner clean
+      melos run generate
+    description: Clean build_runner cache and regenerate code for all packages.
+
+  generate:selective:
+    run: melos exec --dir-exists="lib" --fail-fast -- fvm dart run build_runner build --delete-conflicting-outputs
+    description: Run build_runner selectively for a chosen package.
+    packageFilters:
+      dirExists: lib
