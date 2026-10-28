@@ -9,17 +9,48 @@ environment:
   flutter: ">=1.17.0"
 
 dependencies:
+  carousel_slider: ^5.0.0
+  dropdown_search: ^6.0.2
+  equatable: ^2.0.7
   flutter:
     sdk: flutter
-  equatable: ^2.0.7
   flutter_svg: ^2.0.1
   intl: ^0.19.0
+  photo_view: ^0.15.0
+  popover: ^0.2.8+1
+  scroll_when_needed: ^3.0.1
+  shimmer_animation: ^2.2.2
+  smooth_page_indicator: ^1.0.0+2
+  url_launcher: ^6.3.1
+  webview_flutter: ^4.10.0
   app_types:
     path: ../app_types
   app_core:
     path: ../app_core
+  flutter_screenutil: ^5.9.3
+  infinite_scroll_pagination: ^5.0.0
+  flutter_quill: ^11.2.0
+  flutter_quill_extensions: ^11.0.0
+  image_cropper: ^9.1.0
+  image_picker: ^1.1.2
+  html: ^0.15.5+1
+  dotted_border: ^2.1.0
+  slang: ^4.5.0
+  slang_flutter: ^4.5.0
+  file_picker: ^10.1.2
+  file: ^7.0.1
 
 dev_dependencies:
+  app_bloc_wrapper:
+    path: ../app_bloc_wrapper
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
+  flutter_bloc: ^9.1.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/error/
+    - assets/dictionaries/

@@ -1,0 +1,9 @@
+base_locale: en_US
+fallback_strategy: base_locale
+input_directory: assets/dictionaries/
+input_file_pattern: .i18n.json
+output_directory: lib/src/core/disctionaries
+output_file_name: translations.g.dart
+lazy: true
+locale_handling: true
+flutter_integration: true

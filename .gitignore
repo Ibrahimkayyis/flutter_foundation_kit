@@ -19,6 +19,10 @@ pubspec.lock
 *.gr.dart
 *.mocks.dart
 
+# Keep packaged generated translation & asset helpers for Git dependencies
+!packages/app_ui/lib/src/gen/**
+!packages/app_ui/lib/src/core/disctionaries/**
+
 # Coverage
 coverage/
 

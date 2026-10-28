@@ -225,3 +225,10 @@ class AppMemoryImage extends AppImage {
   @override
   List<Object?> get props => [...super.props, filepath, filepath];
 }
+
+
+typedef NTIImage = AppImage;
+typedef NTINetworkImage = AppNetworkImage;
+typedef NTICompleteNetworkImage = AppCompleteNetworkImage;
+typedef NTIFileImage = AppFileImage;
+typedef NTIMemoryImage = AppMemoryImage;

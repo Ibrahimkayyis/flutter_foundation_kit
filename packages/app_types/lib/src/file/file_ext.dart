@@ -46,3 +46,7 @@ enum AppFileExtension {
   final String value;
   const AppFileExtension(this.value);
 }
+
+
+typedef NTIFileType = AppFileType;
+typedef NTIFileExtension = AppFileExtension;

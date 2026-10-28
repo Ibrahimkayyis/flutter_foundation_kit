@@ -82,3 +82,9 @@ class AppLocalFile extends AppFile {
   @override
   List<Object?> get props => [file.path, ...super.props];
 }
+
+
+typedef NTIFile = AppFile;
+typedef NTINetworkFile = AppNetworkFile;
+typedef NTILocalFile = AppLocalFile;
+typedef NTIBase64StringFile = AppBase64StringFile;

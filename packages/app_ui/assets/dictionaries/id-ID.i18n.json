@@ -1,0 +1,46 @@
+{
+    "dialog": {
+        "confirm": "Konfirmasi",
+        "cancel": "Batal"
+    },
+    "error": {
+        "network": {
+            "unknown": {
+                "buttonText": "Coba Lagi",
+                "text": "Mohon maaf terjadi kesalahan, silahkan coba lagi"
+            },
+            "402": {
+                "buttonText": "Kembali",
+                "text": "Mohon maaf, anda tidak memiliki akses ke data ini. Silahkan hubungi kami apabila ini adalah sebuah kesalahan."
+            },
+            "403": {
+                "buttonText": "Kembali",
+                "text": "Anda tidak memiliki izin untuk mengakses halaman ini. Silakan pastikan Anda memiliki hak akses yang sesuai atau hubungi kami bila terjadi kealahan."
+            },
+            "404": {
+                "buttonText": "Kembali",
+                "text": "Mohon maaf, halaman yang Anda cari tidak dapat ditemukan. URL mungkin salah atau halaman telah dihapus. Silakan periksa kembali dan coba lagi."
+            },
+            "408": {
+                "buttonText": "Coba Lagi",
+                "text": "Mohon maaf, permintaan Anda tidak dapat diproses dalam waktu yang ditentukan. Silakan periksa koneksi internet Anda dan coba lagi."        
+            },
+            "413": {
+                "buttonText": "Coba Lagi",
+                "text": "Ukuran data yang Anda kirimkan melebihi batas yang diizinkan. Silakan perkecil ukuran data atau pilih metode pengiriman yang berbeda."
+            },
+            "500": {
+                "buttonText": "Coba Lagi",
+                "text": "Terjadi kesalahan internal pada server. Tim kami sedang berusaha memperbaiki masalah ini, mohon coba beberapa saat lagi ya"
+            },
+            "502": {
+                "buttonText": "Coba Lagi",
+                "text": "Tampaknya ada masalah pada gateway server. Kami sedang bekerja untuk memperbaiki masalah ini. Mohon coba lagi dalam beberapa saat"
+            },
+            "503": {
+                "buttonText": "Coba Lagi",
+                "text": "Maaf, layanan tidak tersedia saat ini. Kami sedang melakukan pemeliharaan atau mengalami masalah teknis. Silakan coba beberapa saat lagi."
+            }
+        }
+    }
+}

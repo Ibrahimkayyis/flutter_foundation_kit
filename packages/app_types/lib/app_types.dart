@@ -12,3 +12,4 @@ export 'src/query/query.dart';
 export 'src/paginated/paginated.dart';
 export 'src/model/reference_model.dart';
 export 'src/model/selection_model.dart';
+export 'src/rich_text/rich_text.dart';

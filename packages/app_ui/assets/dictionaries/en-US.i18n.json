@@ -1,0 +1,46 @@
+{
+    "dialog": {
+        "confirm": "Confirm",
+        "cancel": "Cancel"
+    },
+    "error": {
+        "network": {
+            "unknown": {
+                "buttonText": "Try Again",
+                "text": "Sorry, an error occurred. Please try again later."
+            },
+            "402": {
+                "buttonText": "Back",
+                "text": "Sorry, you do not have access to this data. Please contact us if this is a mistake."
+            },
+            "403": {
+                "buttonText": "Back",
+                "text": "You do not have permission to access this page. Please ensure you have the appropriate access rights or contact us if there is an error."
+            },
+            "404": {
+                "buttonText": "Back",
+                "text": "Sorry, the page you are looking for cannot be found. The URL might be incorrect or the page has been removed. Please check again and try."
+            },
+            "408": {
+                "buttonText": "Try Again",
+                "text": "Sorry, your request could not be processed in the specified time. Please check your internet connection and try again."
+            },
+            "413": {
+                "buttonText": "Try Again",
+                "text": "The size of the data you submitted exceeds the allowed limit. Please reduce the size of the data or choose a different submission method."
+            },
+            "500": {
+                "buttonText": "Try Again",
+                "text": "An internal server error occurred. Our team is working to fix this issue, please try again later."
+            },
+            "502": {
+                "buttonText": "Try Again",
+                "text": "There seems to be a problem with the server gateway. We are working to fix this issue. Please try again in a moment."
+            },
+            "503": {
+                "buttonText": "Try Again",
+                "text": "Sorry, the service is currently unavailable. We are undergoing maintenance or experiencing technical issues. Please try again later."
+            }
+        }
+    }
+}
